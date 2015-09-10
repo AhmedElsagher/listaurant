@@ -40,7 +40,7 @@ public class LogoFragment extends Fragment implements View.OnClickListener {
                 intent = new Intent(getActivity(),LoginActivity.class);
                 break;
             case R.id.logo_sign_up:
-                intent=new Intent(getActivity(),LoginActivity.class);
+                intent=new Intent(getActivity(),SignUpActivity.class);
                 break;
         }
         startActivity(intent);

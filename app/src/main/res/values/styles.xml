@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/button</item>
+        <item name="android:editTextStyle">@style/editText</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <!--<style name="butt_style" parent="">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/button_text_color_selector</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="editText" parent="@android:style/Widget.EditText"
+        >
+        <item name="android:background">@drawable/edittext_shape</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
